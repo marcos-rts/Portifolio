@@ -72,10 +72,14 @@ h2 {
 }
 
 .skills li {
-    background: #0077b5;
+    /* background: #0077b5; */
     color: white;
     padding: 0.3em 0.7em;
     border-radius: 5px;
+}
+
+.skills li img{
+    border-radius: 10px;
 }
 
 footer {
