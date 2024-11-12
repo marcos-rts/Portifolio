@@ -52,11 +52,13 @@ h2 {
 }
 
 .job,
+.course,
 .project {
     margin: 1em 0;
 }
 
 .job h3,
+.course h3,
 .project h3 {
     font-size: 1.1em;
     color: #333;
