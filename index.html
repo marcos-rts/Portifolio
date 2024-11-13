@@ -1,141 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos - Portfólio</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Marcos Santos - Portifolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Hero Section -->
-    <section class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <!-- <img src="sua-foto.png" class="rounded-circle mb-3" alt="Foto de perfil de Marcos" width="150" height="150"> -->
-            <h1 class="display-4">Marcos A. R. T. dos Santos</h1>
-            <p class="lead">
-                Técnico Help-Desk Pleno | Desenvolvedor Back-end | Java | PHP
+    <header class="hero">
+        <div class="profile-pic">
+            <!-- <img src="" alt="Foto de perfil"> -->
+        </div>
+        <h1>Marcos A. R. T. dos Santos</h1>
+        <p class="headline">
+            Técnico Help-Desk Pleno | Desenvolvedor Back-end | Java | PHP
+        </p>
+        <p class="summary">
+            Desenvolvedor Back-end em diversas linguagens mas com foco no Java, PHP e JavaScript / TipeScript.
+            Possuo uma ampla experiencia em suporte tecnico e resolução de problemas 
+        </p>
+    </header>
+
+    <section class="experience">
+        <h2>Experiencia</h2>
+        <div class="job">
+            <h3>Técnico de Help Desk Pleno</h3>
+            <p>Net Turbo Telecom</p>
+            <br>
+            <p><em>Mai 2024 - Atual</em></p>
+            <br>
+            <p>
+                Atuo como Técnico de Help Desk Pleno na Net Turbo Telecom, desempenhando papel crucial no suporte à infraestrutura de TI da empresa. Minhas responsabilidades incluem fornecer suporte técnico de primeira linha, diagnosticar e resolver problemas de software, administrar serviços e acessos no Microsoft 365, realizar manutenção preventiva e corretiva de hardware, além de configurar postos de trabalho. Também sou responsável pela administração de sistemas corporativos essenciais como Zabbix, Grafana, SAP, ASC e Voalle, garantindo sua atualização e funcionamento adequado, além de monitorar e gerenciar a proteção de sistemas através do antivírus.
             </p>
-            <p class="fs-5">
-                Desenvolvedor Back-end em diversas linguagens mas com foco no Java, PHP e JavaScript/TipeScript.
-                Possuo uma ampla experiencia em suporte tecnico e resolução de problemas
+        </div>
+        <div class="job">
+            <h3>Analista de Suporte Computacional Pleno </h3>
+            <p>Stefanini Brasil</p>
+            <br>
+            <p><em>Out 2021 - Jun 2023</em></p>
+            <br>
+            <p>
+                Como Analista de Suporte II, fui responsável por uma ampla gama de funções técnicas e de suporte, com foco em garantir a eficiência e estabilidade da infraestrutura de TI. Minhas principais atividades incluíam a análise e resolução de problemas em sistemas internos e de terceiros, oferecendo suporte remoto e presencial via tickets, e-mails e telefonemas. Também realizei manutenção e preparação de estações de trabalho, configuração de redes locais e remotas, além de gestão do sistema PABX, criando ramais e configurando redirecionamentos de chamadas. Utilizei ferramentas como Zabbix e Grafana para monitorar a conectividade de redes, mantive impressoras operacionais e administrei acessos através do Windows Active Directory, assegurando o controle adequado de permissões e segurança.
             </p>
         </div>
+
+        <div class="job">
+            <h3>Suporte Tecnico - Estagio</h3>
+            <p>Lorac Informatica</p>
+            <br>
+            <p><em>Nov 2020 - Out 2021</em></p>
+            <br>
+            <p>
+                Como Estagiário de Suporte Técnico na Secretaria de Agricultura e Desenvolvimento de Campinas, atuei em diversas funções voltadas para o suporte à infraestrutura de TI da organização. Minhas principais responsabilidades incluíam resolver problemas relacionados a software e sistemas internos, garantindo que os colaboradores tivessem acesso contínuo aos recursos necessários. Também realizava manutenção e preparação de hardware, monitorava os links das regionais vinculadas e oferecia atendimento imediato, coordenando com a operadora para solucionar problemas de conectividade. Além disso, fui responsável pela configuração de roteadores e switches, colaborando para a estabilidade e eficiência da rede.
+            </p>
+        </div>        
     </section>
 
-    <!-- Experience Section -->
-    <section class="container my-5">
-        <h2 class="text-primary">Experiência</h2>
-        <div class="card my-3">
-            <div class="card-body">
-                <h3 class="card-title">Técnico de Help Desk Pleno</h3>
-                <h4 class="card-subtitle mb-2 text-muted">Net Turbo Telecom</h4>
-                <p class="text-muted">Mai 2024 - Atual</p>
-                <p>
-                    Atuo como Técnico de Help Desk Pleno na Net Turbo Telecom, desempenhando papel crucial no suporte à
-                    infraestrutura de TI da empresa. Minhas responsabilidades incluem fornecer suporte técnico de
-                    primeira linha, diagnosticar e resolver problemas de software, administrar serviços e acessos no
-                    Microsoft 365, realizar manutenção preventiva e corretiva de hardware, além de configurar postos de
-                    trabalho. Também sou responsável pela administração de sistemas corporativos essenciais como Zabbix,
-                    Grafana, SAP, ASC e Voalle, garantindo sua atualização e funcionamento adequado, além de monitorar e
-                    gerenciar a proteção de sistemas através do antivírus.
-                </p>
-            </div>
-        </div>
-        <div class="card my-3">
-            <div class="card-body">
-                <h3 class="card-title">Analista de Suporte Computacional Pleno </h3>
-                <h4 class="card-subtitle mb-2 text-muted">Stefanini Brasil</h4>
-                <p class="text-muted">Out 2021 - Jun 2023</p>
-                <p>
-                    Como Analista de Suporte II, fui responsável por uma ampla gama de funções técnicas e de suporte,
-                    com foco em garantir a eficiência e estabilidade da infraestrutura de TI. Minhas principais
-                    atividades incluíam a análise e resolução de problemas em sistemas internos e de terceiros,
-                    oferecendo suporte remoto e presencial via tickets, e-mails e telefonemas. Também realizei
-                    manutenção e preparação de estações de trabalho, configuração de redes locais e remotas, além de
-                    gestão do sistema PABX, criando ramais e configurando redirecionamentos de chamadas. Utilizei
-                    ferramentas como Zabbix e Grafana para monitorar a conectividade de redes, mantive impressoras
-                    operacionais e administrei acessos através do Windows Active Directory, assegurando o controle
-                    adequado de permissões e segurança.
-                </p>
-            </div>
-        </div>
-        <div class="card my-3">
-            <div class="card-body">
-                <h3 class="card-title">Suporte Tecnico - Estagio</h3>
-                <h4 class="card-subtitle mb-2 text-muted">Lorac Informatica</h4>
-                <p class="text-muted">Nov 2020 - Out 2021</p>
-                <p>
-                    Como Estagiário de Suporte Técnico na Secretaria de Agricultura e Desenvolvimento de Campinas, atuei
-                    em diversas funções voltadas para o suporte à infraestrutura de TI da organização. Minhas principais
-                    responsabilidades incluíam resolver problemas relacionados a software e sistemas internos,
-                    garantindo que os colaboradores tivessem acesso contínuo aos recursos necessários. Também realizava
-                    manutenção e preparação de hardware, monitorava os links das regionais vinculadas e oferecia
-                    atendimento imediato, coordenando com a operadora para solucionar problemas de conectividade. Além
-                    disso, fui responsável pela configuração de roteadores e switches, colaborando para a estabilidade e
-                    eficiência da rede.
-                </p>
-            </div>
-        </div>
+    <section class="skills">
+        <h2>Competencias</h2>
+        <ul>
+            <!-- <li>HTML & CSS</li> -->
+            <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></li>
+            <li><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></li>
+            <!-- <li>PHP</li> -->
+            <li><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"></li>
+            <!-- <li>JavaScript</li> -->
+            <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></li>
+            <!-- <li>TypeScript</li> -->
+            <li><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></li>
+            <li><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"></li>
+            <!-- <li>Python</li> -->
+            <!-- <li>Ruby</li> -->
+        </ul>
     </section>
 
-    <!-- Skills Section -->
-    <section class="container my-5">
-        <h2 class="text-primary">Competências</h2>
-        <div class="row">
-            <div class="col">
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></span>
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></span>
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"></span>
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></span>
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></span>
-                <span class="badge bg-primary"><img
-                        src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"></span>
-                <!-- <span class="badge bg-primary">MySQL</span> -->
-                <!-- <span class="badge bg-primary">MySQL</span> -->
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <!-- <section class="container my-5">
-        <h2 class="text-primary">Projetos</h2>
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">Projeto 1</h3>
-                        <p class="card-text">Breve descrição sobre o projeto e o que ele resolve.</p>
-                        <a href="link-para-o-projeto" class="btn btn-primary" target="_blank">Ver Projeto</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">Projeto 2</h3>
-                        <p class="card-text">Breve descrição sobre o projeto e o que ele resolve.</p>
-                        <a href="link-para-o-projeto" class="btn btn-primary" target="_blank">Ver Projeto</a>
-                    </div>
-                </div>
-            </div>
+    <!-- <section class="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p>
+                Breve descrição sobre o projeto e o que ele resolve
+            </p>
+            <a href="link-para-o-projeto" target="_blank">Ver Projeto</a>
         </div>
     </section> -->
 
-    <!-- Escolariedade -->
     <section class="education">
         <h2>Escolariedade</h2>
         <div class="course">
-            <h3>Curso Superior de Tecnologia - Gestão da Tecnologia da Informação</h3>
+            <h3>Curso Superior de Tecnologia - Gestão  da Tecnologia da Informação</h3>
             <p>Fatec Campinas</p>
             <br>
             <p><em>2019 - 2021</em></p>
@@ -143,7 +96,7 @@
             <!-- <p>
                 [Algum texto]
             </p> -->
-        </div>
+        </div> 
 
         <hr>
 
@@ -185,14 +138,10 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-3 bg-dark text-white">
-        <p>Entre em contato: <a href="mailto:marcosreis.santos384@outlook.com.br"
-                class="text-white">marcosreis.santos384@outlook.com.br</a></p>
+    <footer>
+        <p>
+            Entre em contato: <a href="mailto:marcosreis.santos384@outlook.com.br">marcosreis.santos384@outlook.com.br</a>
+        </p>
     </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
