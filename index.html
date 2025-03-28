@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcos Santos - Portfólio</title>
+    <title>Marcos Santos - Desenvolvedor Back-End</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -13,87 +13,167 @@
   </head>
 
   <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav>
+        <div class="logo">Marcos<span>.</span></div>
+        <div class="nav-links">
+          <a href="#home">Inicio</a>
+          <a href="#about">Sobre</a>
+          <a href="#experience">Experiência</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+        </div>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
     <!-- Hero Section -->
-    <section class="bg-primary text-white text-center py-5">
-      <div class="container">
-        <!-- <img src="sua-foto.png" class="rounded-circle mb-3" alt="Foto de perfil de Marcos" width="150" height="150"> -->
-        <h1 class="display-4">Marcos A. R. T. dos Santos</h1>
-        <p class="lead">
-          Técnico Help-Desk Pleno | Desenvolvedor Back-end | Java | PHP
-        </p>
-        <p class="fs-5">
-          Desenvolvedor Back-end em diversas linguagens mas com foco no Java,
-          PHP e JavaScript / TipeScript. Possuo uma ampla experiencia em suporte
-          tecnico e resolução de problemas .
-        </p>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Olá, eu sou <span>Marcos Santos</span></h1>
+          <p>
+            Desenvolvedor Back-End com expêriencia em criar soluções web
+            modernas e responsivas.
+          </p>
+          <div>
+            <a href="#projects" class="btn">Ver Projetos</a>
+            <a href="#contact" class="btn btn-outline">Contato</a>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4D03AQGRJ6PNB_0djw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725846821418?e=1748476800&v=beta&t=bZcHsv09eaWAI2cdj4dzcx5T03OY8BHk9NPpyLHxBdo"
+            alt="Marcos Santos"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="section-title">
+        <h2>Sobre Mim</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Desenvolvedor Full Stack</h3>
+          <p>Descrição do Cargo</p>
+        </div>
+        <div class="about-skills">
+          <h3>Minhas Habilidades</h3>
+          <div class="skills-container">
+            <div class="skill">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-git-alt"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-bootstrap"></i>
+              <span>Bootstrap</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Experience Section -->
-    <section class="container my-5">
-      <h2 class="text-primary">Experiência</h2>
-      <div class="card my-3">
-        <div class="card-body">
-          <h3 class="card-title">Técnico de Help Desk Pleno</h3>
-          <h4 class="card-subtitle mb-2 text-muted">Net Turbo Telecom</h4>
-          <p class="text-muted">Mai 2024 - Atual</p>
-          <p>
-            Atuo como Técnico de Help Desk Pleno na Net Turbo Telecom,
-            desempenhando papel crucial no suporte à infraestrutura de TI da
-            empresa. Minhas responsabilidades incluem fornecer suporte técnico
-            de primeira linha, diagnosticar e resolver problemas de software,
-            administrar serviços e acessos no Microsoft 365, realizar manutenção
-            preventiva e corretiva de hardware, além de configurar postos de
-            trabalho. Também sou responsável pela administração de sistemas
-            corporativos essenciais como Zabbix, Grafana, SAP, ASC e Voalle,
-            garantindo sua atualização e funcionamento adequado, além de
-            monitorar e gerenciar a proteção de sistemas através do antivírus.
-          </p>
-        </div>
+    <section id="experience">
+      <div class="section-title">
+        <h2>Experiência</h2>
       </div>
-      <div class="card my-3">
-        <div class="card-body">
-          <h3 class="card-title">Analista de Suporte Computacional Pleno</h3>
-          <h4 class="card-subtitle mb-2 text-muted">Stefanini Brasil</h4>
-          <p class="text-muted">Out 2021 - Jun 2023</p>
-          <p>
-            Como Analista de Suporte II, fui responsável por uma ampla gama de
-            funções técnicas e de suporte, com foco em garantir a eficiência e
-            estabilidade da infraestrutura de TI. Minhas principais atividades
-            incluíam a análise e resolução de problemas em sistemas internos e
-            de terceiros, oferecendo suporte remoto e presencial via tickets,
-            e-mails e telefonemas. Também realizei manutenção e preparação de
-            estações de trabalho, configuração de redes locais e remotas, além
-            de gestão do sistema PABX, criando ramais e configurando
-            redirecionamentos de chamadas. Utilizei ferramentas como Zabbix e
-            Grafana para monitorar a conectividade de redes, mantive impressoras
-            operacionais e administrei acessos através do Windows Active
-            Directory, assegurando o controle adequado de permissões e
-            segurança.
-          </p>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Desenvolvedor Júnior</h3>
+            <p class="timeline-date">2024 - Presente</p>
+            <p>
+              Empresa Net Turbo e Telecom - Atuo no desenvolvimento de soluções
+              internas e automações para otimizar processos e fluxos de
+              trabalho. Minhas principais responsabilidades incluem:
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card my-3">
-        <div class="card-body">
-          <h3 class="card-title">Suporte Tecnico - Estagio</h3>
-          <h4 class="card-subtitle mb-2 text-muted">Lorac Informatica</h4>
-          <p class="text-muted">Nov 2020 - Out 2021</p>
-          <p>
-            Como Estagiário de Suporte Técnico na Secretaria de Agricultura e
-            Desenvolvimento de Campinas, atuei em diversas funções voltadas para
-            o suporte à infraestrutura de TI da organização. Minhas principais
-            responsabilidades incluíam resolver problemas relacionados a
-            software e sistemas internos, garantindo que os colaboradores
-            tivessem acesso contínuo aos recursos necessários. Também realizava
-            manutenção e preparação de hardware, monitorava os links das
-            regionais vinculadas e oferecia atendimento imediato, coordenando
-            com a operadora para solucionar problemas de conectividade. Além
-            disso, fui responsável pela configuração de roteadores e switches,
-            colaborando para a estabilidade e eficiência da rede.
-          </p>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Técnico de Help-Desk Pleno</h3>
+            <p class="timeline-date">Mai de 2024 - Set. 2024</p>
+            <p>
+              Empresa Net Turbo e Telecom - Atuo como Técnico de Help Desk Pleno
+              e Desenvolvedor Interno, contribuindo tanto no suporte à
+              infraestrutura de TI quanto na automação de processos da empresa.
+              Minhas responsabilidades incluem:
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Analista de Suporte Tecnico</h3>
+            <p class="timeline-date">2021 - 2023</p>
+            <p>
+              Analista de Suporte Computacional Pleno - Na minha posição como
+              Analista de Suporte II, fui responsável por uma variedade de
+              funções técnicas e de suporte. Minhas principais responsabilidades
+              incluíam:
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Analista de Suporte Tecnico</h3>
+            <p class="timeline-date">2021 - 2023</p>
+            <p>
+              Suporte Técnico - Atuo como Técnico de Help Desk Pleno e
+              Desenvolvedor Interno, contribuindo tanto no suporte à
+              infraestrutura de TI quanto na automação de processos da empresa.
+              Minhas responsabilidades incluem:
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
+    
 
     <!-- Skills Section -->
     <section class="container my-5">
